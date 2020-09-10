@@ -1,0 +1,23 @@
+{
+  "name": "projetomultimedia",
+  "version": "1.0.0",
+  "description": "Projeto final de curso - José Marques (10861) ISMT Multimédia 2020 - Projeto Multimédia ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "José Marques",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "minimist": "^1.2.5",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.3",
+    "popper.js": "^1.16.1",
+    "sequelize": "^5.21.7"
+  }
+}
